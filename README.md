@@ -38,7 +38,7 @@ This application helps music learners by creating simplified versions of complex
 
 ## Live Demo
 
-**try it now**:https://music-score-simplifier-v87.vercel.app/
+**Try it now**:https://music-score-simplifier-v87.vercel.app/
 
 ## Recent Updates (v8.7)
 
