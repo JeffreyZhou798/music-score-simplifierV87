@@ -4,7 +4,7 @@ A pure frontend web application that provides intelligent graded simplification 
 
 ## Overview
 
-This application helps music learners by creating simplified versions of complex musical scores. It supports both **monophonic instruments** (violin, flute, cello) with single-staff notation and **polyphonic instruments** (piano) with grand-staff notation. The system provides 5 progressive difficulty levels, allowing learners to gradually transition from simplified versions to the original score.
+This application helps music learners by creating simplified versions of complex musical scores. It supports both **monophonic instruments** (violin, flute, cello，…) with single-staff notation and **polyphonic instruments** (piano，harpsichord，…) with grand-staff notation. The system provides 5 progressive difficulty levels, allowing learners to gradually transition from simplified versions to the original score.
 
 ## Core Features
 
@@ -36,7 +36,11 @@ This application helps music learners by creating simplified versions of complex
 - **Voice-Level Customization**: Independent level selection for Soprano and Bass in grand-staff mode
 - **Flexible Configuration**: Each level offers multiple sub-options for fine-tuned control
 
-## Recent Updates (v8.6)
+## Live Demo
+
+**try it now**:https://music-score-simplifier-v87.vercel.app/
+
+## Recent Updates (v8.7)
 
 ### New Features
 - **Enhanced Voice Separation**: 5-step algorithm (MusicVAE embedding → KNN classification → K-Means clustering → Continuity optimization → Fragment handling)
