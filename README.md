@@ -148,69 +148,6 @@ npm run preview
 1. Build the project: `npm run build`
 2. Deploy the `dist` folder to any static hosting service
 
----
-
-## GitHub Upload Guide
-
-### ✅ Required Files (MUST upload)
-
-```
-music-score-simplifierV85/
-├── src/                    # All source code
-│   ├── ai/                 # AI modules
-│   ├── components/         # Vue components
-│   ├── knowledge/          # Knowledge base
-│   ├── modules/            # Core modules (parser, analyzer, simplifier, exporter)
-│   ├── rules/              # Simplification rules
-│   ├── types/              # Type definitions
-│   ├── utils/              # Utilities
-│   ├── workers/            # Web workers
-│   ├── App.vue             # Main component
-│   ├── main.js             # Entry point
-│   └── style.css           # Global styles
-├── public/                 # Static assets
-├── index.html              # HTML entry
-├── package.json            # Dependencies
-├── package-lock.json       # Lock file
-├── vite.config.js          # Vite configuration
-├── vercel.json             # Vercel deployment config
-├── netlify.toml            # Netlify deployment config
-├── README.md               # This file
-├── .gitignore              # Git ignore rules
-└── .gitattributes          # Git attributes
-```
-
-### ❌ NOT Required (Do NOT upload)
-
-```
-# These are auto-generated or temporary files
-node_modules/               # Dependencies (auto-installed via npm install)
-dist/                       # Build output (auto-generated via npm run build)
-test-output/                # Test output files
-*.log                       # Log files
-
-# IDE/Editor specific
-.vscode/                    # VS Code settings (optional)
-.idea/                      # JetBrains IDE settings
-
-# Test files (optional, can delete before upload)
-test-*.js                   # Test scripts
-debug-*.js                  # Debug scripts
-```
-
-### .gitignore Content (Already configured)
-
-The `.gitignore` file should contain:
-```
-node_modules/
-dist/
-*.log
-.DS_Store
-*.local
-test-output/
-```
-
----
 
 ## Project Structure
 
