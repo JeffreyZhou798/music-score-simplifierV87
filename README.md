@@ -382,3 +382,14 @@ MIT License - see LICENSE file for details
 - **TensorFlow.js Team**: For the inference engine
 - **ml-js Community**: For machine learning algorithms
 - **MuseScore**: For MusicXML format support
+
+## ⚠️ Copyright Notice
+
+© 2025 Jeffrey Zhou. All rights reserved.
+
+This repository and its contents are protected by copyright law.  
+No part of this project may be copied, reproduced, modified, or distributed without prior written permission from the author.
+
+Commercial use is strictly prohibited.
+
+*Built with ❤️ for music education*
